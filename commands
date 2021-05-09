@@ -1,0 +1,4 @@
+kubectl get service -n teste
+kubectl get pod -n teste
+kubectl exec -it {pod_name} -n teste -- sh
+mysql -h {mysql-svc-ip} -u docker
